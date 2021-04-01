@@ -1,0 +1,186 @@
+@CHARSET "EUC-KR";
+*{margin:0px;padding:0px;}
+/**************top****************/
+#top_Box{
+	width:100%;/* 부모영역의 100%로 너비지정 */
+	height: 30px;
+	background-color: black;
+}
+.top_login{
+	float:right;
+	padding-top: 5px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+.top_login a{
+	color:white;
+	text-decoration: none;
+}
+
+.top_login a:hover{
+	color:white;
+	font-weight: bold;
+}
+
+/**************main****************/
+#main_Box{
+	width: 100%;
+	height: 800px;
+}
+#main_reservation{
+	font-size:20px;
+	text-align: center;
+	height:95px;
+	width:auto;
+	background-color: #faecc5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.main_table_reservation{
+	
+	margin-left: 260px;
+	padding:20px; 
+	width:1050px;
+	border: 1px solid;
+	border-color: #C6C6C6;
+	border-radius: 5px;
+	background-color: white;
+}
+.main_reserv4 #selectTotal{
+	size: 100px;
+}
+#main_event{
+	height:320px;
+}
+
+/**********main_event***********/
+#List_titleLine{
+	margin-left: 37px;	
+	height: 3px;
+	background-color: #c0c0c0;
+	width: 1510px;
+}
+.main_event_detail{
+	text-align: center;
+	float: left;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:20px;	
+	margin-left: 37px;	
+}
+.main_event_detail img{
+	width: 250px;
+	height: 150px;
+}
+/*************bottom***************/
+#bottom_Box{
+	padding: 30px;
+	background-color:black;
+	width: 100%;
+	height: 100px;
+	color:white;
+	text-align: center;
+	float: none;
+	float: left;
+}
+/************changeMain************/
+#changeMain_Box{
+	margin-top: 10px;
+	width: 100%;
+	background-color: white;
+}
+.left_Box{
+	padding-left:30px;
+	padding-right:40px;
+	width: 13%;
+	height: 100%;	
+	float: left;
+}
+.right_Box{
+	margin-left: 10px;
+	float: left;
+	background-color: white;
+	height: 100%;
+	width: 85%;
+}
+.left_menu a{
+	text-decoration: none;
+	color: #747474;
+}
+.left_menu a:HOVER{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+.left_menu h3{
+	color: #997000;
+}
+.accordion{
+	position: relative;
+	top: 50px;
+}
+.accordion div{
+	border-top: 2px solid #997000;
+}
+
+
+
+.button {
+   border: 0px solid #f2c961;
+   background: #f2c961;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f2c961), to(#f2c961));
+   background: -webkit-linear-gradient(top, #f2c961, #f2c961);
+   background: -moz-linear-gradient(top, #f2c961, #f2c961);
+   background: -ms-linear-gradient(top, #f2c961, #f2c961);
+   background: -o-linear-gradient(top, #f2c961, #f2c961);
+   background-image: -ms-linear-gradient(top, #f2c961 0%, #f2c961 100%);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #f2c961 0 1px 0;
+   color: #000000;
+   font-size: 13px;
+   font-family: fantasy;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 0px solid #0a3c59;
+   text-shadow: #000000 0 1px 0;
+   background: #f2c961;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f2c961), to(#f2c961));
+   background: -webkit-linear-gradient(top, #f2c961, #f2c961);
+   background: -moz-linear-gradient(top, #f2c961, #f2c961);
+   background: -ms-linear-gradient(top, #f2c961, #f2c961);
+   background: -o-linear-gradient(top, #f2c961, #f2c961);
+   background-image: -ms-linear-gradient(top, #f2c961 0%, #f2c961 100%);
+   color: #000000;
+   }
+.button:active {
+   text-shadow: #000000 0 1px 0;
+   border: 0px solid #f7f7f7;
+   background: #ffffff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2c961));
+   background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+   background: -moz-linear-gradient(top, #ffffff, #ffffff);
+   background: -ms-linear-gradient(top, #ffffff, #ffffff);
+   background: -o-linear-gradient(top, #ffffff, #ffffff);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   color: #000000;
+   }
+#reply_content{
+ 	margin-left: 100px;
+ 	width: 80%;
+ 	height: 100px;
+ 	float: left;
+ } 
+#reply_insert{
+ 	width: 80px;
+ 	height: 100px;
+ 	float: left;
+ 	margin-left: 10px;
+ }
